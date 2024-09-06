@@ -1,0 +1,44 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: JLOMAS Site
+theme: ["PaperMod"]
+
+params:
+  DateFormat: "January 2, 2006"
+  showtoc: false
+  tocopen: false
+  
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Julio Lomas
+    subtitle: "Programmer & Web Developer"
+    imageUrl: "/images/logo.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
+    
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/godoqr75"
+    - name: linkedin
+      url: "https://linkedin.com/in/juliolomas"      
+    - name: github
+      url: "https://github.com/godoquaran"
+    - name: webpage
+      url: "https://sites.google.com/view/juliolomas/home"    
