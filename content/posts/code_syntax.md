@@ -151,3 +151,11 @@ This is pre text
 ### Github Gist
 
 {{< gist adityatelange 376cd56ee2c94aaa2e8b93200f2ba8b5 >}}
+
+### Highlight
+
+{{< highlight go-html-template "lineNos=inline, lineNoStart=42" >}}
+{{ range .Pages }}
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+{{ end }}
+{{< /highlight >}}

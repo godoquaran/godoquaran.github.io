@@ -3,9 +3,12 @@ languageCode: en-us
 title: JLOMAS Site
 theme: ["PaperMod"]
 paginate: 5
-enableInlineShortcodes: true
+# enableInlineShortcodes: true
 enableEmoji: true
-PygmentsUseClasses: true
+pygmentsUseClasses: true
+
+security:
+  enableInlineShortcodes: true
 
 params:
   DateFormat: "January 2, 2006"

@@ -15,7 +15,7 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ## Figure Shortcode ([PaperMod enhanced](https://github.com/adityatelange/hugo-PaperMod/commits/master/layouts/shortcodes/figure.html))
 
-{{< figure src="https://source.unsplash.com/Z0lL0okYjy0" attr="Photo by [Aditya Telange](https://unsplash.com/@adityatelange?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/Z0lL0okYjy0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)" align=center link="https://unsplash.com/photos/Z0lL0okYjy0" target="_blank" >}}
+{{< figure src="https://cdn.pixabay.com/photo/2018/07/26/12/21/lighthouse-3563483_1280.jpg" attr="Photo by [NikolasV](https://pixabay.com/es/users/nikolasv-9655594/) on [pixabay](https://pixabay.com/es/) " align=center link="https://pixabay.com/es/photos/faro-costa-atardecer-nubes-3563483/" target="_blank" >}}
 
 ---
 
@@ -28,3 +28,21 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 ## Vimeo Shortcode
 
 {{< vimeo 152985022 >}}
+
+### With class
+
+{{< vimeo id="146022717" class="my-vimeo-wrapper-class" title="My vimeo video" >}}
+
+---
+
+## Instagram Shortcode
+
+{{< instagram CxOWiQNP2MO >}}
+
+---
+
+## Twitter Shortcode
+
+{{< twitter user="SanDiegoZoo" id="1453110110599868418" >}}
+
+---
