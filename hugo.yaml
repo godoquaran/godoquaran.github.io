@@ -1,15 +1,21 @@
-baseURL: https://example.org/
+baseURL: "https://godoquaran.github.io/"
 languageCode: en-us
 title: JLOMAS Site
 theme: ["PaperMod"]
+paginate: 5
+enableInlineShortcodes: true
+enableEmoji: true
+PygmentsUseClasses: true
 
 params:
   DateFormat: "January 2, 2006"
-  showtoc: false
-  tocopen: false
-  
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowToc: true
+  TocOpen: false
+
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: true
     title: Julio Lomas
     subtitle: "Programmer & Web Developer"
     imageUrl: "/images/logo.jpg"
@@ -37,8 +43,25 @@ params:
     - name: x
       url: "https://x.com/godoqr75"
     - name: linkedin
-      url: "https://linkedin.com/in/juliolomas"      
+      url: "https://linkedin.com/in/juliolomas"
     - name: github
       url: "https://github.com/godoquaran"
     - name: webpage
-      url: "https://sites.google.com/view/juliolomas/home"    
+      url: "https://sites.google.com/view/juliolomas"
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: site
+      name: site
+      url: https://sites.google.com/view/juliolomas
+      weight: 30
+      
+      
